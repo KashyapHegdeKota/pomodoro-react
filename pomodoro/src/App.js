@@ -35,6 +35,7 @@ function App() {
     <div className="App">
       <h1>Pomodoro Timer</h1>
       <div className="box">
+        <h1>Timer</h1>
         <p>{`${minutes.toString().padStart(2, "0")}:${seconds
           .toString()
           .padStart(2, "0")}`}</p>
